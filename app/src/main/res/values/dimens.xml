@@ -1,0 +1,57 @@
+
+    <resources>
+        <!-- Margin around the floating action button in CatalogActivity -->
+        <dimen name="fab_margin">16dp</dimen>
+
+        <!-- Common margin value used throughout the app -->
+        <dimen name="activity_margin">16dp</dimen>
+
+        <dimen name="add_button_marginRightEnd">33dp</dimen>
+        <dimen name="add_button_marginBottom">42dp</dimen>
+        <dimen name="textSize">18sp</dimen>
+        <dimen name="textSize2">16sp</dimen>
+        <dimen name="CategoryStyle_paddingTop">16dp</dimen>
+        <dimen name="CategoryStyle_width">0dp</dimen>
+        <dimen name="inputFieldsLinearLayout_width">0dp</dimen>
+        <dimen name="inputFieldsLinearLayout_padding">4dp</dimen>
+
+        <dimen name="optionsLayoutImageViewHeight">100dp</dimen>
+        <dimen name="optionsLayoutImageViewWidth">100dp</dimen>
+        <dimen name="optionsLayoutTextViewWidth">100dp</dimen>
+        <dimen name="optionsLayoutMarginImageView">25dp</dimen>
+        <dimen name="optionsLayoutMarginTextView">25dp</dimen>
+        <dimen name="optionsLayoutLinearLayoutMargin">15dp</dimen>
+
+        <dimen name="detailsLayoutComponentsMarginLeft">20dp</dimen>
+        <dimen name="detailsLayoutComponentsMarginTop">20dp</dimen>
+        <dimen name="detailsLayoutComponentsMarginTop2">10dp</dimen>
+        <dimen name="deleteButtonHeight">40dp</dimen>
+        <dimen name="deleteButtonWidth">40dp</dimen>
+        <dimen name="deleteButtonMarginTop">50dp</dimen>
+        <dimen name="deleteButtonMarginLeft">150dp</dimen>
+        <dimen name="callButtonHeight">40dp</dimen>
+        <dimen name="callButtonWidth">40dp</dimen>
+        <dimen name="callButtonMarginLeft">20dp</dimen>
+        <dimen name="callButtonMarginTop">10dp</dimen>
+        <dimen name="detailsLayoutTextViewWidth">100dp</dimen>
+
+        <dimen name="editorLayoutTextViewLeft">20dp</dimen>
+        <dimen name="editorLayoutTextViewTop">20dp</dimen>
+
+        <dimen name="editIconMarginLeft">20dp</dimen>
+        <dimen name="editIconWidth">20dp</dimen>
+        <dimen name="editIconHeight">20dp</dimen>
+        <dimen name="cartIconWidth">20dp</dimen>
+        <dimen name="cartIconHeight">20dp</dimen>
+        <dimen name="itemListContainer4MarginTop">30dp</dimen>
+        <dimen name="itemListTextViewMarginTop">10dp</dimen>
+        <dimen name="itemListContainer3MarginLeft">120dp</dimen>
+        <dimen name="itemListContainer1Width">150dp</dimen>
+        <dimen name="itemListContainer1MarginTop">10dp</dimen>
+        <dimen name="itemListContainer1TextViewMarginLeft">10dp</dimen>
+        <dimen name="itemListContainer1TextViewMarginTop">20dp</dimen>
+
+
+
+
+    </resources>

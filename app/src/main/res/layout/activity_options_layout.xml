@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".OptionsLayout">
+
+    <LinearLayout
+        android:id="@+id/compound1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/optionsLayoutLinearLayoutMargin"
+        android:orientation="vertical">
+        <ImageView
+            android:contentDescription="@string/book_type_1"
+            android:id="@+id/category1"
+            android:layout_width="@dimen/optionsLayoutImageViewWidth"
+            android:layout_height="@dimen/optionsLayoutImageViewHeight"
+            android:src="@drawable/drama"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginTop="@dimen/optionsLayoutMarginImageView"/>
+
+        <TextView
+            android:id="@+id/category1_text"
+            android:layout_width="@dimen/optionsLayoutTextViewWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginTextView"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colorText"
+            android:text="@string/book_type_1"
+           android:textAlignment="center"
+            android:textStyle="bold"/>
+        <ImageView
+            android:contentDescription="@string/book_type_2"
+            android:id="@+id/category2"
+            android:layout_width="@dimen/optionsLayoutImageViewWidth"
+            android:layout_height="@dimen/optionsLayoutImageViewHeight"
+            android:src="@drawable/science"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginTop="@dimen/optionsLayoutMarginImageView"/>
+
+        <TextView
+            android:id="@+id/category2_text"
+            android:layout_width="@dimen/optionsLayoutTextViewWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginTextView"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colorText"
+            android:text="@string/book_type_2"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/compound2"
+        android:layout_margin="@dimen/optionsLayoutLinearLayoutMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:contentDescription="@string/book_type_3"
+            android:id="@+id/category3"
+            android:layout_width="@dimen/optionsLayoutImageViewWidth"
+            android:layout_height="@dimen/optionsLayoutImageViewHeight"
+            android:src="@drawable/romance"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginTop="@dimen/optionsLayoutMarginImageView"/>
+
+        <TextView
+            android:id="@+id/category3_text"
+            android:layout_width="@dimen/optionsLayoutTextViewWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginTextView"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colorText"
+            android:text="@string/book_type_3"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <ImageView
+            android:contentDescription="@string/book_type_4"
+            android:id="@+id/category4"
+            android:layout_width="@dimen/optionsLayoutImageViewWidth"
+            android:layout_height="@dimen/optionsLayoutImageViewHeight"
+            android:src="@drawable/adventure"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginImageView"
+            android:layout_marginTop="@dimen/optionsLayoutMarginImageView"/>
+
+        <TextView
+            android:id="@+id/category4_text"
+            android:layout_width="@dimen/optionsLayoutTextViewWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginStart="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginRight="@dimen/optionsLayoutMarginTextView"
+            android:layout_marginEnd="@dimen/optionsLayoutMarginTextView"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colorText"
+            android:text="@string/book_type_4"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

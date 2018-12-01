@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="@dimen/itemListContainer1Width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/itemListContainer1MarginTop"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/itemListContainer1TextViewMarginLeft"
+            android:layout_marginStart="@dimen/itemListContainer1TextViewMarginLeft"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="@dimen/itemListContainer1TextViewMarginTop"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/container3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/itemListContainer3MarginLeft"
+        android:layout_marginStart="@dimen/itemListContainer3MarginLeft"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/productQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/itemListTextViewMarginTop"
+            android:background="@drawable/textview_bg"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/container4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/itemListContainer4MarginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cartImage"
+                android:layout_width="@dimen/cartIconWidth"
+                android:layout_height="@dimen/cartIconHeight"
+                android:contentDescription="@string/Cart"
+                android:src="@drawable/cart" />
+
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_width="@dimen/editIconWidth"
+                android:layout_height="@dimen/editIconHeight"
+                android:layout_marginLeft="@dimen/editIconMarginLeft"
+                android:layout_marginStart="@dimen/editIconMarginLeft"
+                android:contentDescription="@string/Edit"
+                android:src="@drawable/edit" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
